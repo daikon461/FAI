@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="fantasy_armor_iss"
+version="2.0.0"
+displayName="Fantasy Armor x Iron's Spells Integration"
+description='''Adds Iron's Spells set bonuses and Japanese tooltips to all 29 Fantasy Armor sets.'''
+[[dependencies.fantasy_armor_iss]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.206,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fantasy_armor_iss]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fantasy_armor_iss]]
+modId="fantasy_armor"
+type="required"
+versionRange="[1.2.4-1.21.1,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.fantasy_armor_iss]]
+modId="irons_spellbooks"
+type="required"
+versionRange="[1.21.1-3.16.3,)"
+ordering="AFTER"
+side="BOTH"
